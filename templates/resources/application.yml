@@ -1,0 +1,12 @@
+server:
+  servlet:
+    contextPath: /
+  port: 8080
+
+anagement:
+  endpoint:
+    health:
+      show-details: always
+
+api:
+  version: 1

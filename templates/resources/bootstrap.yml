@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: application
+  jpa:
+    hibernate:
+      ddlAuto: update
+    properties:
+      hibernate:
+        showSql: true  
+
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+
+---
+spring:
+  profiles: dev  
+
+logging:
+  level:
+    root: DEBUG
+
+---
+spring:
+  profiles: prod
+
+
+logging:
+  level:
+    root: ERROR
