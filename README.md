@@ -28,9 +28,10 @@ Change the file run.sh and execute:
 
 `./run.sh`
 
+
+
 ```shell
-optional arguments:
-  -h, --help            show this help message and exit
+arguments:
   --spring-boot-version SPRING_BOOT_VERSION
                         Version of Spring Boot
   --group-id GROUP_ID   The group_id. ex: com.example
