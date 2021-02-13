@@ -28,7 +28,7 @@ Change the file run.sh and execute:
 
 `./run.sh`
 
-optional arguments:
+`optional arguments:
   -h, --help            show this help message and exit
   --spring-boot-version SPRING_BOOT_VERSION
                         Version of Spring Boot
@@ -37,5 +37,5 @@ optional arguments:
                         The artifact_id. ex: app
   --name-application NAME_APPLICATION
                         The name_application. ex: hello-world
-  --output OUTPUT       The output. ex: /tmp/starter
+  --output OUTPUT       The output. ex: /tmp/starter`
 
