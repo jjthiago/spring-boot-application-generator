@@ -1,5 +1,6 @@
 # Spring Boot Application Generator
-Tool to generate API's Rest written in Java using Spring Boot
+
+### Tool to generate API's Rest written in Java using Spring Boot
 
 Through this tool it is possible to create a project with several maven libraries and also some basic resources
 
@@ -17,14 +18,15 @@ Maven Dependencies:
 - gson
 - modelmapper
 
-By default, a class is created to configure Swagger2
+> By default, a class is created to configure Swagger2
 
-How to Use
+## How to Use
 
 Change the file run.sh and execute:
 
-chmod +x run.sh
-./run.sh
+`chmod +x run.sh`
+
+`./run.sh`
 
 optional arguments:
   -h, --help            show this help message and exit
