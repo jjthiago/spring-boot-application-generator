@@ -41,3 +41,4 @@ arguments:
                         The name_application. ex: hello-world
   --output OUTPUT       The output. ex: /tmp/starter`
 ```
+
